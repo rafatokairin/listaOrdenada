@@ -47,7 +47,7 @@ int main()
             printf("Digite um valor:\n");
             scanf("%d", &chave);
             if (inserirOrd(&lista, chave) == true)
-                printf("Valor inserido!\n");
+                printf("Inserido!\n");
             else
                 printf("ERRO! Insira outro valor\n");
             break;
