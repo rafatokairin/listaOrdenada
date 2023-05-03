@@ -72,7 +72,6 @@ int main()
         }
     } while (opcao != 7);
     reiniciar(&lista);
-    free(lista.inicio);
     return 0;
 }
 
