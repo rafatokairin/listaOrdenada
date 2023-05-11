@@ -69,6 +69,7 @@ int main()
             break;
         default:
             printf("Opcao invalida!\n");
+            break;
         }
     } while (opcao != 7);
     reiniciar(&lista);
